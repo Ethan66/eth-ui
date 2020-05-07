@@ -1,0 +1,21 @@
+export default [
+  {path: '/button', name: 'button', component: () => import('@/pages/button/index')},
+  // {path: '/switch', name: 'switch', component: () => import('@/pages/switch/index')},
+  // {path: '/radio', name: 'radio', component: () => import('@/pages/radio/index')},
+  // {path: '/icon', name: 'icon', component: () => import('@/pages/icon/index')},
+  // {path: '/toast', name: 'toast', component: () => import('@/pages/toast/index')},
+  // {path: '/dialog', name: 'dialog', component: () => import('@/pages/dialog/index')},
+  // {path: '/cell', name: 'cell', component: () => import('@/pages/cell/index')},
+  // {path: '/collapse', name: 'collapse', component: () => import('@/pages/collapse/index')},
+  // {path: '/swipe', name: 'collapse', component: () => import('@/pages/swipe/index')},
+  // {path: '/checkbox', name: 'checkbox', component: () => import('@/pages/checkbox/index')},
+  // {path: '/popup', name: 'popup', component: () => import('@/pages/popup/index')},
+  // {path: '/password', name: 'password', component: () => import('@/pages/password/index')},
+  // {path: '/tab', name: 'tab', component: () => import('@/pages/tab/index')},
+  // {path: '/loading', name: 'loading', component: () => import('@/pages/loading/index')},
+  // {path: '/pullrefresh', name: 'pullrefresh', component: () => import('@/pages/pull-refresh/index')},
+  // {path: '/noticebar', name: 'noticebar', component: () => import('@/pages/notice-bar/index')},
+  // {path: '/list', name: 'list', component: () => import('@/pages/list/index')},
+  // {path: '/date', name: 'date', component: () => import('@/pages/date/index')},
+  // {path: '/test', name: 'test', component: () => import('@/pages/test/index')}
+]
