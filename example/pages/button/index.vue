@@ -29,6 +29,7 @@ export default {
 
 <style lang="less">
   .demo-button-row {
+    padding: 0 10px;
     p {
       text-align: left;
       padding-left: 20px;
