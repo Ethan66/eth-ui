@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack-dev-server --config build/webpack.dev.js",
     "build:components": "node build/build-components.js --color",
-    "build:style": "node build/build-style.js"
+    "build:style": "node build/build-style.js",
+    "build:lib": "node build/build-lib.js"
   },
   "author": "",
   "license": "MIT",
