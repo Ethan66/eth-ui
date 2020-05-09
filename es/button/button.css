@@ -1,0 +1,52 @@
+.lnzi-button {
+  position: relative;
+  display: inline-block;
+  height: 44px;
+  line-height: 42px;
+  padding: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: center;
+  -webkit-appearance: none;
+}
+.lnzi-button[disabled] {
+  background-color: #D8D8D8;
+  color: #999;
+  border: none;
+}
+.lnzi-button--large {
+  width: 100%;
+  border-radius: 0;
+}
+.lnzi-button--normal {
+  width: 335px;
+}
+.lnzi-button--small {
+  width: 130px;
+}
+.lnzi-button--default {
+  color: #fff;
+  border: none;
+}
+.lnzi-button--plain {
+  background-color: #FFF;
+}
+.lnzi-button--block {
+  display: block;
+  width: 100%;
+}
+.lnzi-button--semicircle {
+  width: auto;
+  height: 30px;
+  line-height: 28px;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 12px;
+  background-color: #B3B3B3;
+  border-radius: 15px 0 0 15px;
+  border: none;
+}
+.lnzi-button--semicircle:active {
+  background-color: #999;
+}
