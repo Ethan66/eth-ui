@@ -1,0 +1,44 @@
+.lnzi-radio{
+  position: relative;
+  padding: 5px 0 5px 1.2em;
+  &--disabled{
+    color: #ddd;
+    .lnzi-radio--control{
+      background: #e5e5e5;
+      .lnzi-icon{
+        color: #e5e5e5;
+      }
+    }
+    .lnzi-radio--control--checked{
+      .lnzi-icon{
+        color: #999;
+      }
+    }
+  }
+  &--control{
+    position: absolute;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: 1px solid #bbb;
+    background: #fff;
+    overflow: hidden;
+    .lnzi-icon{
+      position: absolute;
+      color: #fff;
+    }
+  }
+  &--control--checked{
+    width: calc(1em + 2px);
+    height: calc(1em + 2px);
+    border: none;
+    background: red;
+    .lnzi-icon{
+      margin-left: 1px;
+    }
+  }
+  &--value{
+    line-height: 1;
+  }
+}

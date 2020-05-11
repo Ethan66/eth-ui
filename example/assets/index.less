@@ -1,2 +1,20 @@
-@import '$pkg/lnzi-style/button';
+@import '$pkg/lnzi-style/index';
 @import '$pkg/lnzi-style/base';
+
+.section-wrap{
+  .s-line{
+    .s-title{
+      line-height: 0.8rem; color: rgba(69,90,100,.6); font-size: 0.28rem;
+      &+.s-line{
+        margin-top: 0;
+      }
+    }
+    .s{
+      display: inline-block;  padding: 0.2rem 0.4rem; text-align: center; font-size: 0.3rem;
+      border: 1px solid #ddd; border-radius: 4px; background: #fff; margin-bottom: 0.4rem;
+    }
+  }
+  .s-line{
+    margin: 10px 0;
+  }
+}

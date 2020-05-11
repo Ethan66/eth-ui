@@ -16,8 +16,7 @@
     :style="[
       {width},
       {height},
-      {borderRadius},
-      styleObj
+      {borderRadius}
     ]"
     @click="onClick"
   >
@@ -35,12 +34,11 @@ export default create({
   props: {
     text: String,
     nativeType: String,
-    disabled: String,
+    disabled: Boolean,
     block: Boolean,
     width: String,
     height: String,
     borderRadius: String,
-    styleObj: String,
     tag: {
       type: String,
       default: 'button'
@@ -51,7 +49,7 @@ export default create({
     },
     size: {
       type: String,
-      default: 'normal'
+      default: 'small'
     }
   },
   methods: {
